@@ -1,29 +1,25 @@
 
 
 /* Overlay Visable*/
-function showOverlay (overlay) {
+function showOverlay(lightboxID) {
 
-    overlayId.classList.remove('nope');
+    document.getElementById('overlay').classList.remove('nope');
+
+    document.getElementById('graphic-1').classList.remove('nope');
+
 
 }
 
-let overlayId = document.getElementById ('overlay');
-
-/* when you click on any images the class nope is taken away, allowing the class grow to be visible*/
-
-
 /* Image Big*/
-function makeimggrow(bigImg) {
+function makeimggrow() {
 
-	let showOverlay = document.getElementById ('graphic-1');
-
-    showOverlay.classList.remove("nope");
+	showOverlay('graphic-1');
 	
 }
 
-let tinyImg1 = document.getElementById ('smol-img1');
-
-tinyImg1.onclick = makeimggrow
+document.getElementById('smol-img1').onclick = makeimggrow;
 
 
 /* when you click on img1 the class nope is taken away, allowing the class grow to be visible*/
+
+
