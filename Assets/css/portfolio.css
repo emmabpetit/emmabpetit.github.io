@@ -1,0 +1,57 @@
+
+
+#graphic-div {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 900px;
+    margin-top: 40px;
+    margin-left: 285px;
+
+}
+
+
+.graphic {
+
+    height:275px;
+    padding:10px;
+    border-radius:18px;
+}
+
+#ducks {
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nope {
+    display:none;
+}
+
+.grow {
+
+    height:600px;
+    position: absolute;
+    float:center;
+    border-radius: 90px;
+
+}
+
+.overlay {
+
+    height:100%;
+    width:100%;
+    background-color: rgba(22, 22, 22, 0.5)
+
+}
+
+.big-boy-box{
+
+    background:white;
+    padding-right: 30px;
+
+}
+    

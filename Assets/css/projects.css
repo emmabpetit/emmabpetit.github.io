@@ -1,0 +1,76 @@
+
+
+#icon-one {
+
+    height:168px;
+
+}
+
+.nums {
+
+    font-family: 'raleway', 'san-serif';
+    color:#989899;
+    font-size:40px;
+    padding-top: 60px;
+
+}
+
+.des {
+
+    font-family: 'raleway', 'san-serif';
+    color:#989899;
+    font-size:18px;
+    line-height: 12px;
+
+}
+
+.boxyy {
+
+    margin-top: -10px;
+    padding-left: 2px;
+
+}
+
+h1 {
+
+    font-family: 'quicksand', 'san-serif';
+    color:#989899;
+    font-size:30px;
+    font-weight: 100;
+
+}
+
+.para {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 22px;
+
+}
+
+.icon {
+
+    padding:50px;
+}
+
+.projects {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    margin-right: 25px;
+
+}
+
+.title-link {
+
+    font-family: 'quicksand', 'san-serif';
+    color:#989899;
+    font-size:30px;
+    font-weight: 100;
+    text-decoration: none;
+    padding-bottom: 22px;
+    margin-top: 20px;
+
+}

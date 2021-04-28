@@ -1,0 +1,138 @@
+
+.nav {
+
+    font-family: 'quicksand', sans-serif;
+    color: #7F7F82;
+    text-decoration: none;
+    font-weight: 300px;
+    font-size: 22px;
+    background-color: white;
+
+}
+
+.nav:hover {
+
+    color:#C08ABD;
+
+}
+
+#logo {
+
+    height: 175px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+#navbar {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#Resume {
+
+    padding-right: 70px;
+
+
+}
+
+#Portfolio {
+
+    padding-right: 70px;
+
+}
+
+#Projects {
+
+    padding-left: 70px;
+
+}
+
+#About {
+
+    padding-left: 70px;
+
+}
+
+.nav-one {
+
+    padding-top: 70px;
+
+}
+
+#nav-two {
+
+    padding-top: 70px;
+
+}
+
+#dropdown {
+
+    float: left;
+    overflow: hidden;
+
+}
+
+.drop-nav {
+
+  padding-top: 70px;
+
+}
+
+
+/* Dropdown Container*/
+#dropdown-content {
+    
+    position: absolute;
+    text-align: left;
+    margin-right: 410px;
+    font-family: 'quicksand', sans-serif;
+    color: #7F7F82;
+    font-weight: 300px;
+    font-size: 22px;
+    z-index: 10;
+}
+
+.clover {
+  display: none;
+}
+
+
+/*link properties*/
+  .peach {
+    font-family: 'quicksand', sans-serif;
+    color: #7F7F82;
+    font-weight: 300px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  /*link properties on hover*/
+  .peach:hover {
+
+    color:#C08ABD;
+
+  }
+
+  #rasberry {
+
+    padding-top: 15px;
+
+  }
+
+  #orange {
+
+    padding-top: 10px;
+
+  }
+
+  #watermelon {
+
+    padding-top: 10px;
+
+  }
+
+
+  

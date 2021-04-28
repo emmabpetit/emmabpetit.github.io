@@ -1,0 +1,30 @@
+
+
+#meee {
+height:350px;
+border-radius:18px;
+}
+
+#section-onee {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top:80px;
+}
+
+.enter {
+    font-family: 'quicksand', sans-serif;
+    color: #7F7F82;
+    text-decoration: none;
+    font-weight: 300px;
+    font-size: 18px;
+}
+
+#chatting {
+    margin-left: 65px;
+    margin-top: 12px;
+}
+
+#space {
+    line-height: 3px;
+}
