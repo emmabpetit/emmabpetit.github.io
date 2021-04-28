@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <link rel ="stylesheet" type="text/css" href="Assets/css/homepage.css">
+        <link rel ="stylesheet" type="text/css" href="Assets/css/navbar-footer.css">
+
+
+        <!-- Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+
+
+        <title> Emma's Website</title>
+
+        <link rel="shortcut icon" href="Assets/img/icon.svg">
+
+    </head>
+
+    <Body>
+
+    <!--Splash-->
+
+        <!--Overlay-->
+        <div id="splash">
+            <div>
+                <img id="plants" src="Assets/img/plants.svg">
+            </div>
+
+            <div id="slider-box">
+                <div>
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <div>
+                    <p id="output"><span id="percent"></span>%</p>
+                </div>
+            </div>
+            <div>
+                <p id="instructions">pull me!</p>
+            </div>
+        </div>
+
+
+
+    <div id="main-content" class="hidden">
+        <!--Nav Bar-->
+
+        <div id="navbar">
+
+            <div class="nav-one">
+                <a href="Assets/img/emma resume.pdf" id="Resume" class=nav >Resume</a>
+            </div>
+
+            
+        <!--Drop Down Menu-->
+
+        <div id="dropdown" class="drop-nav">
+            <a href="../Pages/portfolio.html" id="Portfolio" class=nav>Portfolio</a>
+            <div id="dropdown-content" class="clover">
+                <div id="rasberry">
+                    <a class="peach" href="Pages/portfolio.html">Graphic Design</a>
+                </div>
+                <div id="orange">
+                    <a class="peach" href="Pages/portfolio-3D.html">3D Modeling</a>
+                </div>
+                <div id="watermelon">
+                    <a class="peach" href="Pages/portfolio-physical.html">Art</a>
+                </div>
+            </div>
+        </div>
+
+
+
+            <!--Insert Logo Here -->
+            <a href="index.html">
+                <img src="Assets/img/icon.svg" id="logo">
+            </a>
+
+
+    
+            <div id="nav-two">
+                <a  href="Pages/projects.html" id="Projects" class=nav >Projects</a>
+                <a href="Pages/about-me.html" id="About" class=nav> About Me</a>
+            </div>
+
+        </div>
+
+
+            <!--Section One-->
+
+            <div id="homepage">
+                <div>
+                    <p id="intro"> <pre class="line">Hi my name is Emma Petit!  Product design, </pre> 
+                        <pre class="line">branding, and UX/UI design are my passions </pre> 
+                        <pre class="line">and my one goal in life is to keep a plant </pre>
+                        <pre class="line">alive for longer than a month. Explore my </pre>
+                        <pre class="line">website and get to know me better!</pre></p>
+                </div>
+
+                <div>
+                    <img src ="Assets/img/faire 3.svg" id=fairy>
+                </div>
+
+            </div>
+    </div>
+
+        
+    </Body>
+
+    <script src ="Assets/js/splash.js"></script>
+    <script src ="Assets/js/navbar.js"></script>
+    
