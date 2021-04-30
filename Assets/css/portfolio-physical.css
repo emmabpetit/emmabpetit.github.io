@@ -27,3 +27,38 @@
     align-items: center;
 
 }
+
+.graphic:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.nope {
+    display:none;
+}
+
+.grow {
+
+    height:350px;
+    top: 26%;
+    left: 24.05%;
+    position: fixed;
+
+    background:white;
+    padding-right: 380px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(22, 22, 22, 0.5);
+
+}
