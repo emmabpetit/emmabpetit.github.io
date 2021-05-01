@@ -53,7 +53,7 @@ function closeBoxes(lightboxID) {
 
 function closeAllboxes() {
 
-	var boxes = document.getElementsByClassName('grow');
+	var boxes = document.getElementsByClassName('big-boy-box');
 
 	for (var i = 0; i < boxes.length; i++) {
 

@@ -66,6 +66,31 @@
     cursor: pointer;
 }
 
+.frog {
+    font-family: 'quicksand', 'san-serif';
+    color:#989899;
+    font-size:28px;
+    font-weight: 100;
+    text-decoration: none;
+    top: 33%;
+    left: 52.5%;
+    position: fixed;
+    cursor:pointer;
+}
+
+.toad {
+    width: 320px;
+    font-family: 'raleway', 'san-serif';
+    color:#989899;
+    line-height: 1.5;
+    font-size:18px;
+    top: 36%;
+    left: 52.7%;
+    position: fixed;
+}
+
+
+
 
 
     
