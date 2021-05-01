@@ -72,10 +72,14 @@
     font-size:28px;
     font-weight: 100;
     text-decoration: none;
-    top: 33%;
+    top: 32.5%;
     left: 52.5%;
     position: fixed;
     cursor:pointer;
+}
+
+.frog:hover {
+    color:#C08ABD;
 }
 
 .toad {

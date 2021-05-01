@@ -40,6 +40,15 @@ h1 {
 
 }
 
+h1:hover {
+    color:#C08ABD;
+    cursor: pointer;
+}
+
+.title-link:hover {
+    color:#C08ABD;
+}
+
 .para {
 
     display: flex;
@@ -51,6 +60,11 @@ h1 {
 .icon {
 
     padding:50px;
+}
+
+.icon:hover {
+    opacity:0.8;
+    cursor: pointer;
 }
 
 .projects {
