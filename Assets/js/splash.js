@@ -20,7 +20,6 @@ function exchange() {
     }
 }
 
-
 /* when the slider.value is equal to 100 I want the 
 class hidden to be removed from the div #main-content and I 
 want the class hidden to be added to the div #splash*/
