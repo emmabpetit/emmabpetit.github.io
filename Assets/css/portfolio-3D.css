@@ -1,0 +1,10 @@
+#background {
+    width:100%;
+    height:50px;
+    background-color:rgb(191, 214, 255); 
+}
+
+#largee {
+    display:flex;
+    flex-direction: column;
+}
